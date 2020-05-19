@@ -12,7 +12,7 @@ import { Blog } from './blog.model';
 export class BlogService {
   selectedBlog: Blog;
   blogs: Blog[];
-  readonly baseURL = 'http://localhost:3000/blogs';
+  readonly baseURL = 'https://mean-blog-back-end.herokuapp.com/blogs';
 
   constructor(private http: HttpClient) { }
 
